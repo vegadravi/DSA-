@@ -15,3 +15,8 @@
 let dummy =[10,20,30,40,50];
 dummy.reverse();
 console.log(dummy)//[50,40,30,20,10]
+// if short trik merge two array
+ let data1=[9,12,13,50];
+ let data2=[3,4,7,8,9];
+ let data3=[...data1,...data2];
+ console.log(data3)
